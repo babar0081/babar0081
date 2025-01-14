@@ -32,33 +32,75 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 
+
+
 ### AI/ML & NLP Technologies
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
-#### NLP Libraries & Frameworks
-- **Language Models & Transformers**
-  - BERT
-  - GPT (OpenAI Integration)
-  - Hugging Face Transformers
-  - LangChain
-
-- **Python NLP Libraries**
-  - NLTK
-  - spaCy
-  - Gensim
-  - Urduhack
-  - scikit-learn
-  - pandas
-  - NumPy
-
-- **MERN Stack AI Integration**
+#### MERN Stack AI/ML Integration
+- **Frontend AI Integration**
   - TensorFlow.js
-  - OpenAI API
-  - Hugging Face API
-  - Langchain.js
+  - ML5.js
+  - Brain.js
+  - Face-api.js
+  - MediaPipe
+  - React-Tensorflow.js
+
+- **Backend AI Services**
+  - OpenAI API Integration
+  - Google Cloud AI
+  - Azure Cognitive Services
+  - AWS Machine Learning
+  - Hugging Face Inference API
+  - Cohere API
+
+- **NLP Frameworks & Tools**
+  - Natural (Node.js NLP library)
+  - Compromise
   - Node-NLP
+  - @tensorflow-models/universal-sentence-encoder
+  - Sentiment.js
+  - Langchain.js
+
+#### Language Models & Transformers
+- **Large Language Models**
+  - GPT-3.5/4 Integration
+  - BERT Implementation
+  - T5 Transformers
+  - RoBERTa
+  - Llama 2
+  - Claude API
+
+- **Vector Databases**
+  - Pinecone
+  - Milvus
+  - Weaviate
+  - ChromaDB
+  - Redis Vector Search
+
+#### ML Operations
+- **Model Deployment**
+  - TensorFlow Serving
+  - ONNX Runtime
+  - TorchServe
+  - MLflow
+  - BentoML
+
+- **Model Optimization**
+  - Model Compression
+  - Quantization
+  - TensorFlow.js Converter
+  - WebAssembly Integration
+
+#### Development Tools
+- **AI Development**
+  - Jupyter Notebooks
+  - Google Colab
+  - VS Code AI Extensions
+  - TensorBoard
+  - Weights & Biases
 
 ### Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -155,6 +197,7 @@
      - Database: MongoDB
      - Cloud: Cloudinary
      - AI Integration: Hugging Face models
+     
    - **Highlights:**
      - Glass morphism UI elements
      - Responsive design
