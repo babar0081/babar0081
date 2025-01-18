@@ -34,11 +34,8 @@ jobs:
         uses: Platane/snk@v2
         with:
           github_user_name: babar0081
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg
-            dist/ocean.gif
-      
+          outputs: "dist/github-snake.svg,dist/github-snake-dark.svg,dist/ocean.gif"
+    
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
