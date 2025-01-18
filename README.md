@@ -9,13 +9,13 @@
 
 ## 🐍 Contribution Snake
 
-![snake gif](https://raw.githubusercontent.com/babar0081/babar0081/output/github-snake.svg?timestamp=1705632000)
+![snake gif](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-snake.svg)
 
 <div align="center">
 
   <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="Top Languages" />
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
 
 </div>
 
