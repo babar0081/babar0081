@@ -12,9 +12,9 @@
   ## 📊 My GitHub Stats
 <div align="center">
   <!-- First Stats Card -->
-  <img src="https://github-readme-stats-plum-eight.vercel.app/api?username=babar0081&show_icons=true&theme=radical&count_private=true&include_all_commits=true&custom_title=Babar's%20GitHub%20Contributions" alt="Babar's GitHub Stats" height="180" />
   
-  <!-- Languages Card -->
+  
+  
   <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&count_private=true" alt="Top Languages" height="180" />
   
   <!-- Streak Stats Card -->
