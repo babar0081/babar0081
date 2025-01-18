@@ -6,16 +6,14 @@
 - 🌱 Specializing in Social Media Platform Development
 - 👯 Open to collaborate on Full Stack Projects
 
-
 ## 📊 My GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats-plum-eight.vercel.app/api?username=babar0081&show_icons=true&theme=radical&hide=prs&count_private=true&include_all_commits=true" alt="Babar's GitHub Stats" />
+  <img src="https://github-readme-stats-plum-eight.vercel.app/api?username=babar0081&show_icons=true&theme=radical&hide=prs&count_private=true&include_all_commits=true&cache_seconds=0&timestamp=1705632000" alt="Babar's GitHub Stats" />
   
-  <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&hide=javascript" alt="Top Languages" />
+  <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&hide=javascript&cache_seconds=0&timestamp=1705632000" alt="Top Languages" />
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical&cache_seconds=0&timestamp=1705632000" alt="GitHub Streak" />
 </div>
-
 
 
 ## 🚀 Current Project: GeoFind
