@@ -7,8 +7,8 @@
 - 👯 Open to collaborate on Full Stack Projects
 
 <div align="center">
- ## 🐍 Contribution Snake
-![Snake animation](https://raw.githubusercontent.com/babar0081/babar0081/output/github-snake.svg)
+## 🐍 Contribution Snake
+![Snake animation](https://raw.githubusercontent.com/babar0081/babar0081/output/dist/github-snake.svg)
 
   <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="Top Languages" />
   
