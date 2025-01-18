@@ -21,9 +21,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" height="180" />
 </div>
 
-  <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="Top Languages" />
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="GitHub Streak" />
 </div>
 
 
