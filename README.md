@@ -7,9 +7,23 @@
 - 👯 Open to collaborate on Full Stack Projects
 
 
-![Babar's GitHub stats](https://github-readme-stats.vercel.app/api?username=babar0081&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide=contribs)
+## 📊 My GitHub Stats
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=dark)](https://git.io/streak-stats)
+<div align="center">
+  <a href="https://github.com/yourusername/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" alt="Babar's GitHub Stats" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical" alt="Top Languages" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="GitHub Streak" />
+  </a>
+</div>
+
 
 ## 🚀 Current Project: GeoFind
 - Social Media Platform with Advanced Features:
