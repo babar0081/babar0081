@@ -1,24 +1,10 @@
 name: GitHub Snake Game
-
-
-
 on:
-
-  # Schedule the workflow to run daily at midnight UTC
 
   schedule:
 
     - cron: "0 0 * * *"
-
-
-
-  # Allow manual triggering of the workflow
-
   workflow_dispatch:
-
-
-
-  # Trigger the workflow on pushes to the main branch
 
   push:
 
@@ -29,6 +15,23 @@ on:
 
 
 jobs:
+
+update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update README Stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git pull
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git commit --allow-empty -m "Force stats update"
+          git push
+
 
   generate:
 
