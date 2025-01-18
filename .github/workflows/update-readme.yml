@@ -14,19 +14,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Generate GitHub Stats
-      - name: Generate GitHub Stats
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: "babar0081" # Your GitHub username
-          show_icons: true
-          theme: radical
-          count_private: true
-          include_all_commits: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
-        
-      # Step 3: Commit and Push Changes
+      # Step 2: Commit and Push Changes
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"

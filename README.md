@@ -17,13 +17,13 @@
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&hide=javascript" alt="Top Languages" />
   </a>
-</div>
-
-<div align="center">
+  <div align="center">
   <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
   </a>
 </div>
+</div>
+
 
 
 ## 🚀 Current Project: GeoFind
