@@ -1,16 +1,24 @@
 name: GitHub Stats
 on:
   schedule:
-    - cron: '0 */24 * * *'  # Runs every 24 hours
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - name: Update README Stats
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          # The stats will auto-update using the token
+          git pull
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git commit --allow-empty -m "Force stats update"
+          git push
