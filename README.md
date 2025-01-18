@@ -11,6 +11,18 @@
 <div align="center">
   <img src="https://github-readme-stats-plum-eight.vercel.app/api?username=babar0081&show_icons=true&theme=radical&count_private=true&include_all_commits=true&cache_seconds=0&timestamp=1705632000&show_owner=true&count_private=true&include_all_commits=true&custom_title=Babar's GitHub Contributions" alt="Babar's GitHub Stats" />
   
+  ## 📊 My GitHub Stats
+<div align="center">
+  <!-- First Stats Card -->
+  <img src="https://github-readme-stats-plum-eight.vercel.app/api?username=babar0081&show_icons=true&theme=radical&count_private=true&include_all_commits=true&custom_title=Babar's%20GitHub%20Contributions" alt="Babar's GitHub Stats" height="180" />
+  
+  <!-- Languages Card -->
+  <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&count_private=true" alt="Top Languages" height="180" />
+  
+  <!-- Streak Stats Card -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" height="180" />
+</div>
+
   <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="Top Languages" />
   
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="GitHub Streak" />
