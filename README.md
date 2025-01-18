@@ -10,11 +10,11 @@
 ## 📊 My GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/yourusername/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" alt="Babar's GitHub Stats" />
+  <a href="https://github.com/babar0081/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=babar0081&show_icons=true&theme=radical" alt="Babar's GitHub Stats" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical" alt="Top Languages" />
   </a>
 </div>
 
