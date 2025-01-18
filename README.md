@@ -9,6 +9,8 @@
 
 ![Babar's GitHub stats](https://github-readme-stats.vercel.app/api?username=babar0081&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide=contribs)
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=dark)](https://git.io/streak-stats)
+
 ## 🚀 Current Project: GeoFind
 - Social Media Platform with Advanced Features:
   - Ads Management System
