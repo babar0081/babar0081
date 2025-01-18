@@ -1,63 +1,97 @@
-name: GitHub Stats and Snake Animation
+name: GitHub Snake Game
+
+
+
 on:
+
+  # Schedule the workflow to run daily at midnight UTC
+
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
-  push:
-    branches: [ main ]
+
+    - cron: "0 0 * * *"
+
+
+
+  # Allow manual triggering of the workflow
+
   workflow_dispatch:
 
-jobs:
-  update-stats:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v3
-      - name: Update README Stats
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git pull
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git commit --allow-empty -m "Force stats update"
-          git push
 
-  generate-snake:
+
+  # Trigger the workflow on pushes to the main branch
+
+  push:
+
+    branches:
+
+      - main
+
+
+
+jobs:
+
+  generate:
+
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
+    timeout-minutes: 10
+
+
+
     steps:
+
       # Step 1: Checkout the repository
+
       - name: Checkout Repository
+
         uses: actions/checkout@v3
 
-      # Step 2: Generate the Snake SVG
-      - name: Generate Snake
-        uses: Platane/snk@v2
+
+
+      # Step 2: Generate the snake animations
+
+      - name: Generate GitHub Contributions Snake Animations
+
+        uses: Platane/snk@v3
+
         with:
+
+          # GitHub username to generate the animation for
+
           github_user_name: babar0081
-          output: dist/github-snake-dark.svg
 
-      # Step 3: Debug Snake Generation
-      - name: Debug Snake Generation
-        run: |
-          echo "Checking if the snake file was generated..."
-          ls -la dist || echo "Error: Snake file not found in 'dist' directory."
-          echo "Contents of the current directory:"
-          ls -la
-          echo "Checking if the 'dist' directory exists:"
-          if [ -d "dist" ]; then
-            echo "'dist' directory exists."
-          else
-            echo "Error: 'dist' directory does not exist."
-          fi
 
-      # Step 4: Push to GitHub Pages
-      - name: Push to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+
+          # Define the output files and their configurations
+
+          outputs: |
+
+            dist/github-snake.svg
+
+            dist/github-snake-dark.svg?palette=github-dark
+
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
         env:
+
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+      # Step 3: Deploy the generated files to the 'output' branch
+
+      - name: Deploy to Output Branch
+
+        uses: peaceiris/actions-gh-pages@v3
+
+        with:
+
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+          publish_dir: ./dist
+
+          publish_branch: output
+
+          # Optionally, you can set a custom commit message
+
+          commit_message: "Update snake animation [skip ci]"
