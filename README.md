@@ -11,7 +11,7 @@
 
 
 
-![snake gif](https://github.com/babar0081/babar0081/blob/output/github-snake-dark.svg)
+![snake gif](https://github.com/babar0081/babar0081/blob/output/github-snake.svg)
 </div>
 
 
