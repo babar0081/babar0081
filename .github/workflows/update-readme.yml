@@ -28,14 +28,32 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
+      # Step 2: Generate the Snake SVG
       - name: Generate Snake
         uses: Platane/snk@v2
         with:
           github_user_name: babar0081
           output: dist/github-snake-dark.svg
 
+      # Step 3: Debug Snake Generation
+      - name: Debug Snake Generation
+        run: |
+          echo "Checking if the snake file was generated..."
+          ls -la dist || echo "Error: Snake file not found in 'dist' directory."
+          echo "Contents of the current directory:"
+          ls -la
+          echo "Checking if the 'dist' directory exists:"
+          if [ -d "dist" ]; then
+            echo "'dist' directory exists."
+          else
+            echo "Error: 'dist' directory does not exist."
+          fi
+
+      # Step 4: Push to GitHub Pages
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
