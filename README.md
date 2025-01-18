@@ -9,12 +9,13 @@
 
 ## 📊 My GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=babar0081&show_icons=true&theme=radical&hide=prs&count_private=true&include_all_commits=true&cache_seconds=1800" alt="Babar's GitHub Stats" />
+  <img src="https://github-readme-stats-plum-eight.vercel.app/api?username=babar0081&show_icons=true&theme=radical&hide=prs&count_private=true&include_all_commits=true" alt="Babar's GitHub Stats" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&hide=javascript&cache_seconds=1800" alt="Top Languages" />
+  <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&hide=javascript" alt="Top Languages" />
   
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
 </div>
+
 
 
 ## 🚀 Current Project: GeoFind
