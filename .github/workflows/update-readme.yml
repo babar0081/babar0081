@@ -2,8 +2,8 @@ name: Update GitHub Stats in README
 
 on:
   schedule:
-    # Runs the workflow every 24 hours
-    - cron: "0 0 * * *"
+    # Runs the workflow every Monday at 00:00 UTC
+    - cron: "0 0 * * 1"
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
@@ -17,14 +17,20 @@ jobs:
       # Step 2: Generate GitHub Stats
       - name: Generate GitHub Stats
         uses: anuraghazra/github-readme-stats@master
+        with:
+          username: "babar0081" # Your GitHub username
+          show_icons: true
+          theme: radical
+          count_private: true
+          include_all_commits: true
         env:
           GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
-
+        
       # Step 3: Commit and Push Changes
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Update GitHub Stats in README"
+          git commit -m "📈 Update GitHub Stats" || echo "No changes to commit"
           git push
