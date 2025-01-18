@@ -9,7 +9,7 @@
 
 ## 🐍 Contribution Snake
 
-![snake gif](https://raw.githubusercontent.com/babar0081/babar0081/output/github-snake.svg?timestamp=1705632000)
+![snake gif](https://github.com/babar0081/babar0081/blob/output/github-snake.svg)
 
 <div align="center">
 
