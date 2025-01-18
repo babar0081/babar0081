@@ -9,6 +9,12 @@
 <div align="center">
   <!-- <img src="https://github-readme-stats-plum-eight.vercel.app/api?username=babar0081&show_icons=true&theme=radical&count_private=true&include_all_commits=true&cache_seconds=0&timestamp=1705632000&show_owner=true&count_private=true&include_all_commits=true&custom_title=Babar's GitHub Contributions" alt="Babar's GitHub Stats" /> -->
   
+
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/babar0081/babar0081/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</div>
+
+
   ## 📊 My GitHub Stats
 
 
