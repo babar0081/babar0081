@@ -1,100 +1,70 @@
-name: GitHub Snake Game
+name: GitHub Snake Game and Stats Update
+
 on:
-
+  # Schedule the workflow to run daily at midnight UTC
   schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight
 
-    - cron: "0 0 * * *"
+  # Allow manual triggering of the workflow
   workflow_dispatch:
 
+  # Trigger the workflow on pushes to the main branch
   push:
-
     branches:
-
       - main
 
-
-
 jobs:
+  # Job 1: Generate the Snake Graph
+  generate-snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-update-stats:
+      # Step 2: Generate the snake animations
+      - name: Generate GitHub Contributions Snake Animations
+        uses: Platane/snk@v3
+        with:
+          # GitHub username to generate the animation for
+          github_user_name: babar0081
+
+          # Define the output files and their configurations
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 3: Deploy the generated files to the 'output' branch
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          # Optionally, you can set a custom commit message
+          commit_message: "Update snake animation [skip ci]"
+
+  # Job 2: Update Stats Graph
+  update-stats:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+      # Step 1: Checkout the repository
       - uses: actions/checkout@v3
+
+      # Step 2: Update README Stats
       - name: Update README Stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "Updating README stats..."
           git pull
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git commit --allow-empty -m "Force stats update"
           git push
-
-
-  generate:
-
-    runs-on: ubuntu-latest
-
-    timeout-minutes: 10
-
-
-
-    steps:
-
-      # Step 1: Checkout the repository
-
-      - name: Checkout Repository
-
-        uses: actions/checkout@v3
-
-
-
-      # Step 2: Generate the snake animations
-
-      - name: Generate GitHub Contributions Snake Animations
-
-        uses: Platane/snk@v3
-
-        with:
-
-          # GitHub username to generate the animation for
-
-          github_user_name: babar0081
-
-
-
-          # Define the output files and their configurations
-
-          outputs: |
-
-            dist/github-snake.svg
-
-            dist/github-snake-dark.svg?palette=github-dark
-
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-        env:
-
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-
-      # Step 3: Deploy the generated files to the 'output' branch
-
-      - name: Deploy to Output Branch
-
-        uses: peaceiris/actions-gh-pages@v3
-
-        with:
-
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
-          publish_dir: ./dist
-
-          publish_branch: output
-
-          # Optionally, you can set a custom commit message
-
-          commit_message: "Update snake animation [skip ci]"
