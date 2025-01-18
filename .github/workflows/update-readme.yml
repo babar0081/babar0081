@@ -1,20 +1,23 @@
-name: Update GitHub Stats in README
+name: Update GitHub Stats
 
 on:
   schedule:
-    # Runs the workflow every Monday at 00:00 UTC
     - cron: "0 0 * * 1"
-  workflow_dispatch: # Allows manual triggering of the workflow
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
-
-      # Step 2: Commit and Push Changes
+        
+      - name: Generate Stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Add this line
+        run: |
+          # Add stats generation commands here
+          
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
