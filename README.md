@@ -10,7 +10,7 @@
 ## 📊 My GitHub Stats
 
 
-<!-- <div align="center">
+<div align="center">
   <a href="https://github.com/babar0081/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api?username=babar0081&show_icons=true&theme=radical&hide=prs&count_private=true&include_all_commits=true" alt="Babar's GitHub Stats" />
   </a>
@@ -22,7 +22,7 @@
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
   </a>
 </div>
-</div> -->
+</div>
 
 
 
