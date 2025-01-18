@@ -1,27 +1,16 @@
-name: Update GitHub Stats
-
+name: GitHub Stats
 on:
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: '0 */24 * * *'  # Runs every 24 hours
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-stats:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-        
-      - name: Generate Stats
+      - uses: actions/checkout@v3
+      - name: Update README Stats
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Add this line
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          # Add stats generation commands here
-          
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "📈 Update GitHub Stats" || echo "No changes to commit"
-          git push
+          # The stats will auto-update using the token

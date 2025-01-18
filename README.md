@@ -8,22 +8,13 @@
 
 
 ## 📊 My GitHub Stats
-
-
 <div align="center">
-  <a href="https://github.com/babar0081/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=babar0081&show_icons=true&theme=radical&hide=prs&count_private=true&include_all_commits=true" alt="Babar's GitHub Stats" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&hide=javascript" alt="Top Languages" />
-  </a>
-  <div align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=babar0081&show_icons=true&theme=radical&hide=prs&count_private=true&include_all_commits=true" alt="Babar's GitHub Stats" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&hide=javascript" alt="Top Languages" />
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
 </div>
-</div>
-
 
 
 ## 🚀 Current Project: GeoFind
