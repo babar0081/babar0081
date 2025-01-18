@@ -25,17 +25,22 @@ jobs:
 
   generate-snake:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
-      - uses: Platane/snk@v2
+      
+      - name: Generate Snake
+        uses: Platane/snk@v2
         with:
           github_user_name: babar0081
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-          
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+            dist/github-snake-dark.svg
+            dist/ocean.gif
+      
+      - name: Push to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
