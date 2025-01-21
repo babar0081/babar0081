@@ -32,22 +32,9 @@
 </div>
 
 
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./metrics/isometric-contribution-grid.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./metrics/isometric-contribution-grid.svg">
-    <img alt="Isometric commit calendar" src="./metrics/isometric-contribution-grid.svg">
-  </picture>
 
 ![Isometric Commit Calendar](https://raw.githubusercontent.com/babar0081/babar0081/daec9a890dca9ca03844fa55413d7c0a910398f4/github-metrics.svg)
 
-<p align="center">
-  <!-- For light mode -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./metrics/isometric-contribution-grid.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./metrics/isometric-contribution-grid.svg">
-    <img alt="Isometric commit calendar" src="./metrics/isometric-contribution-grid.svg">
-  </picture>
-</p>
 
 ## 💻 Tech Stack
 
@@ -188,163 +175,13 @@
 </table>
 
 ## 🚀 Projects
-1. **GeoFind (Ongoing)**
-   - A comprehensive social media platform
-   - Features: Ads system, user engagement, social interactions
-   - Tech: MERN Stack, Socket.io, AWS
 
-
-2. **Absolutot Moto - Premium Motorcycle E-Commerce**
-   - A comprehensive MERN stack e-commerce platform for motorcycle enthusiasts
-   - **Key Features:**
-     - 🛍️ **Customer Experience**
-       - Advanced product search and filtering
-       - Real-time inventory tracking
-       - Secure payment integration
-       - Order tracking system
-       - Guest checkout option
-     - 👤 **User Management**
-       - Secure authentication
-       - Profile management
-       - Order history
-       - Wishlist functionality
-       - Support ticket system
-     - 🎛️ **Admin Dashboard**
-       - Inventory management
-       - Order processing
-       - Stock monitoring
-       - Customer service
-       - Analytics dashboard
-   - **Technical Stack:**
-     - Frontend: React.js, TailwindCSS
-     - Backend: Node.js, Express.js
-     - Database: MongoDB
-     - Security: JWT, Data encryption
-   - **Advanced Features:**
-     - Real-time inventory updates
-     - Automated notifications
-     - Mobile-responsive design
-     - Role-based access control
-     - Integrated analytics
-
-3. **Urdu Sentiment Analysis Tool**
-   - An advanced NLP-based sentiment analysis system for Urdu social media content
-   - **Key Features:**
-     - Custom NLP pipeline for Urdu text processing
-     - Automated sentiment classification (positive/negative/neutral)
-     - Social media integration (Twitter, Facebook, Instagram, YouTube)
-     - Advanced text preprocessing for Urdu language
-     - Machine learning-based sentiment classification
-   - **Tech Stack:**
-     - Python (Core Development)
-     - NLTK, spaCy, Urduhack
-     - Scikit-learn
-     - Gensim (Word2Vec)
-     - pandas, matplotlib
-   - **Achievements:**
-     - Successfully handled complex Urdu text morphology
-     - Developed custom Urdu NLP resources
-     - Implemented efficient preprocessing pipeline
-     - Created comprehensive sentiment classification system
-     
-4. **AITOOLS - AI-Powered Platform**
-   - A comprehensive MERN stack application integrating AI capabilities
-   - **Key Features:**
-     - 🎨 **AI Image Generation**
-       - Text-to-image generation
-       - Multiple AI model support
-       - Community sharing features
-       - Interactive image gallery
-     - 📝 **Text Processing Suite**
-       - URL/text summarization
-       - Multi-language translation
-       - Combined summarization & translation
-       - History tracking with local storage
-   - **Technical Stack:**
-     - Frontend: React.js, Tailwind CSS
-     - Backend: Node.js, Express.js
-     - Database: MongoDB
-     - Cloud: Cloudinary
-     - AI Integration: Hugging Face models
-     
-   - **Highlights:**
-     - Glass morphism UI elements
-     - Responsive design
-     - Real-time processing
-     - Async operations
-     - Community-driven content sharing
-     
-5. **AI Chat Bot**
-   - An intelligent conversational platform powered by GPT-3.5 Turbo
-   - **Key Features:**
-     - 🤖 **Intelligent Conversations**
-       - OpenAI GPT-3.5 Turbo integration
-       - Context-aware responses
-       - Natural language processing
-       - Real-time interaction
-     - 💻 **Technical Architecture**
-       - Frontend: React.js with modern UI
-       - Backend: Express.js REST API
-       - Database: MongoDB
-       - AI: OpenAI API integration
-   - **Core Capabilities:**
-     - Dynamic conversation handling
-     - Persistent chat history
-     - Secure API communication
-     - Responsive design
-   - **Development Highlights:**
-     - Clean architecture
-     - Scalable design
-     - Enhanced security
-     - Modern development practices
+| Project Name                  | Description                                                                 | Key Features                                                                                                   | Tech Stack                                                                                     | Highlights                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| **GeoFind (Ongoing)**         | A comprehensive social media platform                                      | - Ads system<br>- User engagement<br>- Social interactions                                                   | MERN Stack, Socket.io, AWS                                                                     |                                                                                                 |
+| **Absolutot Moto**            | Premium motorcycle e-commerce platform                                     | - 🛍️ **Customer Experience**:<br>Advanced search, real-time inventory, secure payments, guest checkout<br>- 👤 **User Management**:<br>Authentication, profile management, order history, wishlist<br>- 🎛️ **Admin Dashboard**:<br>Inventory management, analytics dashboard | Frontend: React.js, TailwindCSS<br>Backend: Node.js, Express.js<br>Database: MongoDB<br>Security: JWT, Data encryption | - Real-time inventory updates<br>- Automated notifications<br>- Mobile-responsive design<br>- Role-based access control<br>- Integrated analytics |
+| **Urdu Sentiment Analysis**   | NLP-based sentiment analysis system for Urdu social media content          | - Custom NLP pipeline<br>- Sentiment classification (positive/negative/neutral)<br>- Social media integration<br>- Advanced text preprocessing<br>- Machine learning-based classification | Python, NLTK, spaCy, Urduhack, Scikit-learn, Gensim, pandas, matplotlib                         | - Handled complex Urdu text morphology<br>- Developed custom NLP resources<br>- Comprehensive sentiment classification system |
+| **AITOOLS**                   | AI-powered MERN stack application                                          | - 🎨 **AI Image Generation**:<br>Text-to-image generation, community sharing, interactive gallery<br>- 📝 **Text Processing Suite**:<br>Summarization, translation, history tracking | Frontend: React.js, Tailwind CSS<br>Backend: Node.js, Express.js<br>Database: MongoDB<br>Cloud: Cloudinary<br>AI: Hugging Face models | - Glass morphism UI<br>- Responsive design<br>- Real-time processing<br>- Async operations<br>- Community-driven content sharing |
+| **AI Chat Bot**               | Intelligent conversational platform powered by GPT-3.5 Turbo               | - 🤖 **Intelligent Conversations**:<br>Context-aware responses, real-time interaction<br>- 💻 **Technical Architecture**:<br>Frontend: React.js, Backend: Express.js REST API, Database: MongoDB, AI: OpenAI API integration | Frontend: React.js<br>Backend: Express.js REST API<br>Database: MongoDB<br>AI: OpenAI API integration | - Dynamic conversation handling<br>- Persistent chat history<br>- Secure API communication<br>- Scalable design |
 </details>
 
-
-
-
-<style>
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.grid-item {
-  background: #f5f5f5;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.grid-item h4 {
-  color: #333;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #0366d6;
-  padding-bottom: 10px;
-}
-
-.grid-item ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.grid-item li {
-  margin: 8px 0;
-  padding-left: 20px;
-  position: relative;
-}
-
-.grid-item li:before {
-  content: "•";
-  color: #0366d6;
-  position: absolute;
-  left: 0;
-}
-
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
