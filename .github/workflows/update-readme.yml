@@ -88,3 +88,14 @@ jobs:
           plugin_isocalendar_duration: "full-year"
           configuration: |
             output: ./metrics/isometric-contribution-grid.svg
+
+             # Step to deploy the SVG to the 'output' branch
+      - name: Deploy Isometric Commit Calendar to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./metrics
+          publish_branch: output
+          destination_dir: isometric-calendar
+          keep_files: true
+          commit_message: "Update isometric commit calendar [skip ci]"
