@@ -170,8 +170,8 @@
 </table>
 
 
-</details>
-<summary><b> Show More   </b></summary>
+<details>
+<summary><b> Show More Details   </b></summary>
 ## 🚀 Projects
 
 | Project Name                  | Description                                                                 | Key Features                                                                                                   | Tech Stack                                                                                     | Highlights                                                                                     |
