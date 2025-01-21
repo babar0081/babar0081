@@ -67,76 +67,110 @@
 
 #### MERN Stack AI/ML Integration
 <div class="grid-container">
-  <div class="grid-item">
-    <h4>Frontend AI Integration</h4>
-    <ul>
-      <li>TensorFlow.js</li>
-      <li>ML5.js</li>
-      <li>Brain.js</li>
-      <li>Face-api.js</li>
-      <li>MediaPipe</li>
-      <li>React-Tensorflow.js</li>
-    </ul>
-  </div>
-
-  <div class="grid-item">
-    <h4>Backend AI Services</h4>
-    <ul>
-      <li>OpenAI API Integration</li>
-      <li>Google Cloud AI</li>
-      <li>Azure Cognitive Services</li>
-      <li>AWS Machine Learning</li>
-      <li>Hugging Face Inference API</li>
-      <li>Cohere API</li>
-    </ul>
-  </div>
-
-  <div class="grid-item">
-    <h4>NLP Frameworks & Tools</h4>
-    <ul>
-      <li>Natural (Node.js NLP library)</li>
-      <li>Compromise</li>
-      <li>Node-NLP</li>
-      <li>@tensorflow-models/universal-sentence-encoder</li>
-      <li>Sentiment.js</li>
-      <li>Langchain.js</li>
-    </ul>
-  </div>
-   <div class="grid-item">
-    <h4>Large Language Models</h4>
-    <ul>
-      <li>GPT-3.5/4 Integration</li>
-      <li>BERT Implementation</li>
-      <li>T5 Transformers</li>
-      <li>RoBERTa</li>
-      <li>Llama 2</li>
-      <li>Claude API</li>
-    </ul>
-  </div>
-
-<div class="grid-item">
-    <h4>Vector Databases</h4>
-    <ul>
-      <li>Pinecone</li>
-      <li>Milvus</li>
-      <li>Weaviate</li>
-      <li>ChromaDB</li>
-      <li>Redis Vector Search</li>
-    </ul>
-  </div>
-
-  <div class="grid-item">
-    <h4>Model Deployment</h4>
-    <ul>
-      <li>TensorFlow Serving</li>
-      <li>ONNX Runtime</li>
-      <li>TorchServe</li>
-      <li>MLflow</li>
-      <li>BentoML</li>
-    </ul>
-  </div>
   
 </div>
+<table>
+  <tr>
+    <td>
+      <h4>Frontend AI Integration</h4>
+      <ul>
+        <li>TensorFlow.js</li>
+        <li>ML5.js</li>
+        <li>Brain.js</li>
+        <li>Face-api.js</li>
+        <li>MediaPipe</li>
+        <li>React-Tensorflow.js</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Backend AI Services</h4>
+      <ul>
+        <li>OpenAI API Integration</li>
+        <li>Google Cloud AI</li>
+        <li>Azure Cognitive Services</li>
+        <li>AWS Machine Learning</li>
+        <li>Hugging Face Inference API</li>
+        <li>Cohere API</li>
+      </ul>
+    </td>
+    <td>
+      <h4>NLP Frameworks & Tools</h4>
+      <ul>
+        <li>Natural (Node.js NLP library)</li>
+        <li>Compromise</li>
+        <li>Node-NLP</li>
+        <li>@tensorflow-models/universal-sentence-encoder</li>
+        <li>Sentiment.js</li>
+        <li>Langchain.js</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>Large Language Models</h4>
+      <ul>
+        <li>GPT-3.5/4 Integration</li>
+        <li>BERT Implementation</li>
+        <li>T5 Transformers</li>
+        <li>RoBERTa</li>
+        <li>Llama 2</li>
+        <li>Claude API</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Vector Databases</h4>
+      <ul>
+        <li>Pinecone</li>
+        <li>Milvus</li>
+        <li>Weaviate</li>
+        <li>ChromaDB</li>
+        <li>Redis Vector Search</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Model Deployment</h4>
+      <ul>
+        <li>TensorFlow Serving</li>
+        <li>ONNX Runtime</li>
+        <li>TorchServe</li>
+        <li>MLflow</li>
+        <li>BentoML</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>Model Optimization</h4>
+      <ul>
+        <li>Model Compression</li>
+        <li>Quantization</li>
+        <li>TensorFlow.js Converter</li>
+        <li>WebAssembly Integration</li>
+      </ul>
+    </td>
+    <td>
+      <h4>AI Development Tools</h4>
+      <ul>
+        <li>Jupyter Notebooks</li>
+        <li>Google Colab</li>
+        <li>VS Code AI Extensions</li>
+        <li>TensorBoard</li>
+        <li>Weights & Biases</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Development & Deployment</h4>
+      <ul>
+        <li>Docker</li>
+        <li>REST APIs</li>
+        <li>GraphQL</li>
+        <li>JWT Authentication</li>
+        <li>OAuth2.0</li>
+        <li>Microservices Architecture</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 
 #### Language Models & Transformers
