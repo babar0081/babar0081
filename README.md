@@ -7,9 +7,18 @@
 - 👯 Open to collaborate on Full Stack Projects
 
 
-## 🐍 Contribution Snake
+
+<details>
+  <summary>My Contributions</summary>
+
+
 
 ![snake gif](https://github.com/babar0081/babar0081/blob/output/github-snake.svg)
+
+</details>
+
+<details>
+  <summary>📊 GitHub Stats</summary>
 
 <div align="center">
 
@@ -18,6 +27,8 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
 
 </div>
+</details>
+
 
 ## 🚀 Current Project: GeoFind
 - Social Media Platform with Advanced Features:
@@ -241,4 +252,15 @@
      - Scalable design
      - Enhanced security
      - Modern development practices
+
+
+
+
+
+
+
+
+
+
+
 
