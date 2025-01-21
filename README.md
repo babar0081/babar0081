@@ -17,7 +17,9 @@
 - 👯 Open to collaborate on Full Stack Projects
 
 <div align="center">
-  ## My Contributions 
+  
+
+<p><b>My Contributions </b></p>
 
   ![snake gif](https://github.com/babar0081/babar0081/blob/output/github-snake.svg)
 
