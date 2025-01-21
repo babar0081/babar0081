@@ -1,35 +1,35 @@
 # Hi 👋, I'm Babar Khan
 
+
 ## 💫 About Me
-- 🔭 Currently working on **GeoFind** - A Social Media Platform similar to Facebook Ads
-- 💼 Full Stack MERN Developer
+- 💼 Professional Experience:
+  - **Amsa Industries** - Full-time Onsite (Sialkot-based Company)
+  - **Absolute Moto** - Remote Developer (Italian E-commerce Company)
+  - **TechXudo** - Remote Developer (Karachi-based Software House)
+
+- 👨‍💻 Full Stack MERN Developer with expertise in:
+  - Frontend: React.js, Next.js
+  - Backend: Node.js, Express.js
+  - Database: MongoDB
+  - Cloud: AWS, Digital Ocean
+
 - 🌱 Specializing in Social Media Platform Development
 - 👯 Open to collaborate on Full Stack Projects
 
-
-<details>
-<summary><b>Show More</b></summary>
-
-## 🐍 Contribution Snake
+## My Contributions 
 
 ![snake gif](https://github.com/babar0081/babar0081/blob/output/github-snake.svg)
 
 <div align="center">
+  <p><b>📊 Most Used Languages</b></p>
 
   <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="Top Languages" />
-  
+
+  <p><b>🔥 Contributions and Streaks</b></p>
+
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
 
 </div>
-
-
-## 🚀 Current Project: GeoFind
-- Social Media Platform with Advanced Features:
-  - Ads Management System
-  - Follower/Following System
-  - Comment & Share Functionality
-  - Complete Social Media Integration
-  - Advanced User Engagement Tools
 
 
 ## 💻 Tech Stack
@@ -56,30 +56,88 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
+
+
 #### MERN Stack AI/ML Integration
-- **Frontend AI Integration**
-  - TensorFlow.js
-  - ML5.js
-  - Brain.js
-  - Face-api.js
-  - MediaPipe
-  - React-Tensorflow.js
+<div class="grid-container">
+  <div class="grid-item">
+    <h4>Frontend AI Integration</h4>
+    <ul>
+      <li>TensorFlow.js</li>
+      <li>ML5.js</li>
+      <li>Brain.js</li>
+      <li>Face-api.js</li>
+      <li>MediaPipe</li>
+      <li>React-Tensorflow.js</li>
+    </ul>
+  </div>
 
-- **Backend AI Services**
-  - OpenAI API Integration
-  - Google Cloud AI
-  - Azure Cognitive Services
-  - AWS Machine Learning
-  - Hugging Face Inference API
-  - Cohere API
+  <div class="grid-item">
+    <h4>Backend AI Services</h4>
+    <ul>
+      <li>OpenAI API Integration</li>
+      <li>Google Cloud AI</li>
+      <li>Azure Cognitive Services</li>
+      <li>AWS Machine Learning</li>
+      <li>Hugging Face Inference API</li>
+      <li>Cohere API</li>
+    </ul>
+  </div>
 
-- **NLP Frameworks & Tools**
-  - Natural (Node.js NLP library)
-  - Compromise
-  - Node-NLP
-  - @tensorflow-models/universal-sentence-encoder
-  - Sentiment.js
-  - Langchain.js
+  <div class="grid-item">
+    <h4>NLP Frameworks & Tools</h4>
+    <ul>
+      <li>Natural (Node.js NLP library)</li>
+      <li>Compromise</li>
+      <li>Node-NLP</li>
+      <li>@tensorflow-models/universal-sentence-encoder</li>
+      <li>Sentiment.js</li>
+      <li>Langchain.js</li>
+    </ul>
+  </div>
+   <div class="grid-item">
+    <h4>Large Language Models</h4>
+    <ul>
+      <li>GPT-3.5/4 Integration</li>
+      <li>BERT Implementation</li>
+      <li>T5 Transformers</li>
+      <li>RoBERTa</li>
+      <li>Llama 2</li>
+      <li>Claude API</li>
+    </ul>
+  </div>
+
+<div class="grid-item">
+    <h4>Vector Databases</h4>
+    <ul>
+      <li>Pinecone</li>
+      <li>Milvus</li>
+      <li>Weaviate</li>
+      <li>ChromaDB</li>
+      <li>Redis Vector Search</li>
+    </ul>
+  </div>
+
+  <div class="grid-item">
+    <h4>Model Deployment</h4>
+    <ul>
+      <li>TensorFlow Serving</li>
+      <li>ONNX Runtime</li>
+      <li>TorchServe</li>
+      <li>MLflow</li>
+      <li>BentoML</li>
+    </ul>
+  </div>
+  
+</div>
+
 
 #### Language Models & Transformers
 - **Large Language Models**
@@ -119,13 +177,6 @@
   - TensorBoard
   - Weights & Biases
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
 
 ### Development & Deployment
 - Docker
@@ -164,7 +215,7 @@
        - Customer service
        - Analytics dashboard
    - **Technical Stack:**
-     - Frontend: React.js, Material UI
+     - Frontend: React.js, TailwindCSS
      - Backend: Node.js, Express.js
      - Database: MongoDB
      - Security: JWT, Data encryption
@@ -246,3 +297,53 @@
      - Enhanced security
      - Modern development practices
 </details>
+
+
+
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.grid-item h4 {
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #0366d6;
+  padding-bottom: 10px;
+}
+
+.grid-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.grid-item li {
+  margin: 8px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.grid-item li:before {
+  content: "•";
+  color: #0366d6;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
