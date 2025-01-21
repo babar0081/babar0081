@@ -27,8 +27,9 @@
 
   <p><b>🔥 Contributions and Streaks</b></p>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=babar0081&theme=transparent&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=transparent&date_format=j%20M%5B%20Y%5D)]
 
+<p><b>🔥 Contribution Calender</b></p>
   ![Isometric Commit Calendar](https://raw.githubusercontent.com/babar0081/babar0081/daec9a890dca9ca03844fa55413d7c0a910398f4/github-metrics.svg)
 </div>
 ## 💻 Tech Stack
