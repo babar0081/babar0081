@@ -27,7 +27,7 @@
 
   <p><b>🔥 Contributions and Streaks</b></p>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=gotham" alt="GitHub Streak" />
 
 </div>
 
