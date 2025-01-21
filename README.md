@@ -16,11 +16,11 @@
 - 🌱 Specializing in Social Media Platform Development
 - 👯 Open to collaborate on Full Stack Projects
 
-## My Contributions 
-
-![snake gif](https://github.com/babar0081/babar0081/blob/output/github-snake.svg)
-
 <div align="center">
+  ## My Contributions 
+
+  ![snake gif](https://github.com/babar0081/babar0081/blob/output/github-snake.svg)
+
   <p><b>📊 Most Used Languages</b></p>
 
   <img src="https://github-readme-stats-plum-eight.vercel.app/api/top-langs/?username=babar0081&layout=compact&theme=radical&cache_seconds=0&timestamp=1705632000&count_private=true&include_all_commits=true" alt="Top Languages" />
@@ -29,13 +29,8 @@
 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=babar0081&theme=gotham" alt="GitHub Streak" />
 
+  ![Isometric Commit Calendar](https://raw.githubusercontent.com/babar0081/babar0081/daec9a890dca9ca03844fa55413d7c0a910398f4/github-metrics.svg)
 </div>
-
-
-
-![Isometric Commit Calendar](https://raw.githubusercontent.com/babar0081/babar0081/daec9a890dca9ca03844fa55413d7c0a910398f4/github-metrics.svg)
-
-
 ## 💻 Tech Stack
 
 ### Frontend Development
@@ -174,6 +169,9 @@
   </tr>
 </table>
 
+
+</details>
+<summary><b> Show More   </b></summary>
 ## 🚀 Projects
 
 | Project Name                  | Description                                                                 | Key Features                                                                                                   | Tech Stack                                                                                     | Highlights                                                                                     |
