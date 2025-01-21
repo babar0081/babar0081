@@ -32,6 +32,13 @@
 </div>
 
 
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./metrics/isometric-contribution-grid.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./metrics/isometric-contribution-grid.svg">
+    <img alt="Isometric commit calendar" src="./metrics/isometric-contribution-grid.svg">
+  </picture>
+
+![Isometric Commit Calendar](https://raw.githubusercontent.com/babar0081/babar0081/daec9a890dca9ca03844fa55413d7c0a910398f4/github-metrics.svg)
 
 <p align="center">
   <!-- For light mode -->
