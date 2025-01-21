@@ -32,6 +32,16 @@
 </div>
 
 
+
+<p align="center">
+  <!-- For light mode -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./metrics/isometric-contribution-grid.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./metrics/isometric-contribution-grid.svg">
+    <img alt="Isometric commit calendar" src="./metrics/isometric-contribution-grid.svg">
+  </picture>
+</p>
+
 ## 💻 Tech Stack
 
 ### Frontend Development
@@ -66,9 +76,7 @@
 
 
 #### MERN Stack AI/ML Integration
-<div class="grid-container">
-  
-</div>
+
 <table>
   <tr>
     <td>
@@ -171,54 +179,6 @@
     </td>
   </tr>
 </table>
-
-
-#### Language Models & Transformers
-- **Large Language Models**
-  - GPT-3.5/4 Integration
-  - BERT Implementation
-  - T5 Transformers
-  - RoBERTa
-  - Llama 2
-  - Claude API
-
-- **Vector Databases**
-  - Pinecone
-  - Milvus
-  - Weaviate
-  - ChromaDB
-  - Redis Vector Search
-
-#### ML Operations
-- **Model Deployment**
-  - TensorFlow Serving
-  - ONNX Runtime
-  - TorchServe
-  - MLflow
-  - BentoML
-
-- **Model Optimization**
-  - Model Compression
-  - Quantization
-  - TensorFlow.js Converter
-  - WebAssembly Integration
-
-#### Development Tools
-- **AI Development**
-  - Jupyter Notebooks
-  - Google Colab
-  - VS Code AI Extensions
-  - TensorBoard
-  - Weights & Biases
-
-
-### Development & Deployment
-- Docker
-- REST APIs
-- GraphQL
-- JWT Authentication
-- OAuth2.0
-- Microservices Architecture
 
 ## 🚀 Projects
 1. **GeoFind (Ongoing)**

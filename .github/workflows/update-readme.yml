@@ -1,14 +1,11 @@
 name: GitHub Snake Game and Stats Update
 
 on:
-  # Schedule the workflow to run daily at midnight UTC
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight
+    - cron: "0 0 * * *"  
 
-  # Allow manual triggering of the workflow
   workflow_dispatch:
 
-  # Trigger the workflow on pushes to the main branch
   push:
     branches:
       - main
@@ -68,3 +65,24 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git commit --allow-empty -m "Force stats update"
           git push
+
+
+           generate-isocalendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Isometric Commit Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: babar0081
+          template: classic
+          base: ""
+          config_timezone: Asia/Karachi
+          plugin_isocalendar: "yes"
+          plugin_isocalendar_duration: "full-year"
+          configuration: |
+            output: ./metrics/isometric-contribution-grid.svg
